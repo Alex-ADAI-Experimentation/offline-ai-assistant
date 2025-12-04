@@ -54,7 +54,7 @@ This device operates as a standalone offline voice assistant with four main subs
 
 ## Software Architecture
 
-### Recommended Stack
+### Stack
 
 - **Operating System**: Raspberry Pi OS (64-bit, Debian-based)
 - **Language**: Python 3.10+
