@@ -22,7 +22,7 @@
 | 3D Printed Enclosure | Custom case (filament cost or service) | £10–£30 | Local 3D printing, online service |
 | LED Indicator | NeoPixel ring or single RGB LED | £5–£10 | Adafruit, Pimoroni |
 | Physical Button | Momentary push button for manual trigger | £2–£5 | Local electronics |
-| Battery Pack (optional) | 10,000 mAh USB-C PD battery | £20–£40 | Amazon |
+| Battery Pack | 10,000 mAh USB-C PD battery for portable mode | £20–£40 | Amazon |
 | Small OLED Display | 128×64 I2C OLED for status display | £8–£15 | Amazon, Adafruit |
 | Acrylic Sheet | Laser-cut enclosure material | £10–£20 | Local fab lab or online |
 
@@ -31,27 +31,31 @@
 ## Total Estimated Budget
 
 - **Minimum configuration** (core only): £133–£177
-- **Recommended configuration** (core + 3D case + LED): £150–£220
+- **Enhanced configuration** (core + 3D case + LED): £150–£220
 - **Full featured** (core + mic array + battery + display): £270–£350
 
-### Notes on Costs
+All configurations fit comfortably within the £400 grant budget, with substantial headroom for upgrades and contingencies.
 
-- Prices in GBP, approximate as of late 2024/early 2025
-- Shipping not included (add £10–£20 for UK delivery)
-- Consider bulk discounts if building multiple units
-- Check for student discounts on educational platforms
+## Notes on Costs
 
-## Sourcing Recommendations
+- Prices in GBP, approximate as of late 2025
+- Shipping costs add approximately £10 depending on suppliers
+- Student discounts available through some educational platforms
+- Local makerspaces may provide free/discounted 3D printing access
 
-- **Raspberry Pi products**: Official distributors (Pimoroni, The Pi Hut, CPC)
+## Sourcing
+
+- **Raspberry Pi products**: Pimoroni, The Pi Hut, CPC Farnell
 - **Electronics components**: Amazon UK, RS Components, Farnell
 - **Maker supplies**: Pimoroni, Adafruit, SparkFun
-- **3D printing**: Local makerspaces, university fab labs, or online services (3D Hubs)
+- **3D printing**: University fab labs, local makerspaces, online services (3D Hubs, Craftcloud)
 
-## Budget Contingency
+## Budget Allocation Plan
 
-Reserve £50–£75 for:
-- Replacement parts if initial components fail
-- Upgraded microphone or speaker if audio quality insufficient
-- Additional storage or cables
-- Shipping costs and customs (if ordering internationally)
+For this build, I'm planning the enhanced configuration (~£220 core + extras), leaving £180 for:
+- Shipping and handling (£30–£50)
+- Component upgrades if testing reveals issues (£50–£80)
+- Optional mic array HAT if single mic proves insufficient (£50–£60)
+- Future expansion components (display, battery) (~£50)
+
+This allocation prioritizes getting a robust working prototype while maintaining flexibility for iteration based on real-world testing.
