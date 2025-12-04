@@ -1,64 +1,60 @@
 # Offline AI Personal Assistant Device
 
-A hardware project to build a small offline home assistant similar to a Google Home device.  
-The device will use a single-board computer, microphone, and speaker to listen for a wake word, process voice commands locally, and respond using an embedded lightweight AI model.  
-The goal is to learn embedded systems, edge AI, audio processing, and hardware design.
+A privacy-focused home assistant that runs entirely offline using a single-board computer, microphone, and speaker. This device detects wake words, transcribes speech locally, generates responses using a lightweight language model, and plays replies through text-to-speech—all without cloud connectivity.
 
----
+## Project Goals
 
-## 🎯 Project Goals
-- Build a fully offline voice assistant device  
-- Learn audio input/output hardware fundamentals  
-- Train and run lightweight AI models on a small computer  
-- Design and build a simple enclosure  
-- Create a functional prototype suitable for expansion  
+- **Privacy-first**: All speech processing and AI inference happen on-device
+- **Educational**: Hands-on learning with embedded hardware, edge AI, and real-time audio processing
+- **Reproducible**: Documented build process within a modest budget (£200–£350)
+- **Practical**: Demonstrates how edge AI can work in resource-constrained environments
 
----
+## Main Features
 
-## 🧠 Main Features (Planned)
-- Wake word detection  
-- Local speech-to-text processing  
-- Local AI-generated responses  
-- Audio output through speaker  
-- Simple voice commands (timers, queries, device functions)  
+- Wake word detection with low false-positive rate
+- Offline speech-to-text (STT) transcription
+- Local language model for response generation
+- Text-to-speech (TTS) for audio replies
+- Simple voice commands (time, timers, basic Q&A)
 
----
+## Hardware Overview
 
-## 🛠 Hardware Overview
-The device will consist of:
-- A single board computer (Raspberry Pi 5 or similar)  
-- USB microphone or microphone array  
-- Compact speaker (USB or 3.5mm)  
-- SD card for storage  
-- Power supply  
-- Optional: 3D printed enclosure or handmade housing  
+Built around a Raspberry Pi 5 (or similar SBC) with USB microphone, powered speaker, and optional 3D-printed enclosure. See [PARTS.md](PARTS.md) for the complete parts list and budget breakdown.
 
-See `PARTS.md` for the complete component list.
+## Timeline
 
----
+This is a 6-week build project with weekly milestones:
+- Weeks 1–2: Hardware assembly and OS setup
+- Weeks 3–4: Wake word and STT integration
+- Weeks 5–6: Response generation, TTS, and final testing
 
-## 📐 Design Documentation
-All hardware and software planning is in `DESIGN.md`.
+See [BUILD_PLAN.md](BUILD_PLAN.md) for detailed weekly tasks.
 
-A detailed build timeline is in `BUILD_PLAN.md`.
+## Why This Project Matters
 
----
+Privacy concerns around always-listening cloud assistants are growing. This project demonstrates that useful voice interaction can happen entirely on affordable, locally-controlled hardware—empowering users to keep their data private while learning practical embedded AI skills.
 
-## 📓 Building Journal
-All progress logs will be kept in `JOURNAL.md` throughout the build.
+## Documentation
 
----
+- **[DESIGN.md](DESIGN.md)** – System architecture, software stack, and design decisions
+- **[PARTS.md](PARTS.md)** – Complete parts list with costs and sourcing info
+- **[BUILD_PLAN.md](BUILD_PLAN.md)** – Week-by-week build schedule with acceptance criteria
+- **[JOURNAL.md](JOURNAL.md)** – Build log for tracking progress, problems, and solutions
 
-## 📅 Project Timeline Summary
-- Week 1: Component research and ordering  
-- Week 2: Set up audio I/O  
-- Week 3: Wake word detection working  
-- Week 4: Local speech-to-text  
-- Week 5: Local AI model replies  
-- Week 6: Enclosure and final assembly  
+## How to Contribute
 
----
+Contributions are welcome! To get involved:
 
-## 🚀 Why I’m Building This
-This project lets me explore the intersection of AI, hardware engineering, and embedded systems.  
-I want to understand how modern voice assistants work at a low level and build my own offline version to learn about edge computing and device design.
+1. **Report issues**: Open an issue to report bugs or suggest features
+2. **Submit PRs**: Fork the repo, create a feature branch, and submit a pull request
+3. **Follow the journal**: Check JOURNAL.md for current progress and next steps
+
+Please be respectful and constructive in all interactions.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Code of Conduct
+
+We are committed to providing a welcoming and inclusive environment. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
